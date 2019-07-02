@@ -8,6 +8,12 @@ Supports epoch, version and revision.
 Usage
 -----
 
+First you will need to install from the npm [package repository](https://www.npmjs.com/package/dpkg-compare-versions):
+
+`npm install --save dpkg-compare-versions`
+
+Then you'll be able to require it in your program.
+
 ```js
 const compare = require('dpkg-compare-versions');
 compare('1.1.1', '1.0.1')     // returns 1
