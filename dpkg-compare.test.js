@@ -28,13 +28,13 @@ describe('compare versions', () => {
     })
   })
 
-  test(`compare identical versions`, () => {
+  test('compare identical versions', () => {
     expect(compare('0:1-2', '0:1-2')).toBe(0)
   })
-  test(`compare lower than epoch`, () => {
+  test('compare lower than epoch', () => {
     expect(compare('1:1.2', '2:1.2')).toBeLessThan(0)
   })
-  test(`compare lower than versions`, () => {
+  test('compare lower than versions', () => {
     expect(compare('22.2', '333')).toBeLessThan(0)
   })
 })
