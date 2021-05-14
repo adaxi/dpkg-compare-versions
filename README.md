@@ -30,7 +30,7 @@ const versions = [ '2.1', '1.2.2', '3-3' ]
 versions.sort(compare) // versions = [ '1.2.2', '2.1', '3-3' ]
 ```
 
-You can find more information about how sorting works in the [deb-version (5)](http://man7.org/linux/man-pages/man5/deb-version.5.html) manual page.
+You can find more information about how sorting works in the [deb-version (5)](https://manpages.debian.org/buster/dpkg-dev/deb-version.7.en.html) manual page.
 
 Tests
 -----
