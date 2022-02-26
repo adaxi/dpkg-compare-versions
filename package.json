@@ -1,6 +1,6 @@
 {
   "name": "dpkg-compare-versions",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Pure javascript implementation of the dpkg --compare-versions functionality",
   "main": "dpkg-compare.js",
   "homepage": "https://github.com/adaxi/dpkg-compare-versions",
